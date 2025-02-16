@@ -162,20 +162,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Github',
-					link: 'https://www.linkedin.com',
+					name: 'Proton Calendar',
+					link: 'https://calendar.proton.me/u/0/',
 				},
 				{
-					name: 'Notion',
-					link: 'https://www.dribbble.com',
+					name: 'Proton Drive',
+					link: 'https://drive.proton.me/',
 				},
 				{
 					name: 'Proton Mail',
-					link: 'https://www.trello.com',
+					link: 'https://mail.proton.me/u/0/inbox',
 				},
 				{
-					name: 'Gmail',
-					link: 'https://www.slack.com',
+					name: 'Google Mail',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 			],
 		},
@@ -184,24 +184,24 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'zap',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'Vim Cheatsheet',
+					link: 'https://devhints.io/vim',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Tmux Cheatsheet',
+					link: 'https://tmuxcheatsheet.com/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Vimium Docs',
+					link: 'https://github.com/philc/vimium',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Glove80 Config',
+					link: 'https://sunaku.github.io/moergo-glove80-keyboard.html#layers',
 				},
 			],
 		},
@@ -210,20 +210,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'My Repos',
+					link: 'https://github.com/therealcjkirby?tab=repositories',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Stars',
+					link: 'https://github.com/therealcjkirby?tab=stars',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Overview',
+					link: 'https://github.com/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Explore',
+					link: 'https://github.com/explore',
 				},
 			],
 		},
