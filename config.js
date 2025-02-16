@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '0957ffa5097276f6245eff567562a1e2', // Write here your API Key
@@ -53,40 +53,41 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
+		},
+		{
+			id: '2',
+			name: 'Proton Mail',
+			icon: 'inbox',
+			link: 'https://mail.protonmail.com/',
+		},
+		{
+			id: '3',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/',
+		},
+		{
+			id: '4',
+			name: 'Gmail',
+			icon: 'mail',
+			link: 'https://mail.google.com/',
+		},
+		{
+			id: '5',
 			name: 'Github',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
-		},
-		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
+			id: '6',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.proton.me/u/0/',
 		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: '',
-		},
+	
 	],
 
 	secondButtonsContainer: [
@@ -135,45 +136,45 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'monitor-play',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Youtube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Twitch',
+					link: 'https://www.twitch.tv/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Udemy',
+					link: 'https://www.udemy.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Frontend Masters',
+					link: 'https://frontendmasters.com/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'chart-no-axes-gantt',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
+					name: 'Github',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
+					name: 'Notion',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
+					name: 'Proton Mail',
 					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Slack',
+					name: 'Gmail',
 					link: 'https://www.slack.com',
 				},
 			],
